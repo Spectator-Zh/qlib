@@ -13,7 +13,7 @@ ROOT_DIR = Path(__file__).resolve().parents[1]
 LOCAL_ALL = ROOT_DIR / "data" / "cn_day_qlib" / "instruments" / "all.txt"
 DEFAULT_OUT = ROOT_DIR / "instruments" / "mainboard_etf.txt"
 DEFAULT_CSV_DIR = ROOT_DIR / "data" / "cn_day_csv"
-DEFAULT_CALENDAR_OUT = ROOT_DIR / "instruments" / "day_mainboard_etf.txt"
+DEFAULT_CALENDAR_OUT = ROOT_DIR / "data" / "cn_day_qlib" / "calendars" / "day.txt"
 
 
 @dataclass(frozen=True)

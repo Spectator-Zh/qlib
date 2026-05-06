@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-CALENDAR_PATH="$ROOT_DIR/instruments/day_mainboard_etf.txt"
+CALENDAR_PATH="$ROOT_DIR/data/cn_day_qlib/calendars/day.txt"
 TRAIN_SCRIPT="$ROOT_DIR/scripts/train_alpha158_lightgbm.py"
 UNIVERSE_FILE="$ROOT_DIR/instruments/mainboard_etf.txt"
 

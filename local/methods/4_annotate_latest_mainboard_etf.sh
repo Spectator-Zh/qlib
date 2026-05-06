@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-CALENDAR_PATH="$ROOT_DIR/instruments/day_mainboard_etf.txt"
+CALENDAR_PATH="$ROOT_DIR/data/cn_day_qlib/calendars/day.txt"
 
 if [[ ! -d "$ROOT_DIR/results" ]]; then
   echo "results dir not found: $ROOT_DIR/results" >&2

@@ -12,7 +12,7 @@
 
 2. `./methods/2_rebuild_mainboard_etf_pool.sh`
    重建股票池 `instruments/mainboard_etf.txt`。
-   同时重建流程专用交易日历 `instruments/day_mainboard_etf.txt`。
+   同时重建 `data/cn_day_qlib/calendars/day.txt`，保证这套 3608 个标的与交易日历一致。
 
 3. `./methods/3_run_train_mainboard_etf.sh`
    运行 LightGBM 版本训练。

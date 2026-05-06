@@ -51,3 +51,20 @@ tags
 ./pretrain
 .idea/
 .aider*
+
+# local Tongdaxin -> Qlib conversion artifacts
+tdx2qlib/qlib_tdx/
+
+# local workflow artifacts
+local/data/
+local/results/
+local/.agents/
+local/.codex/
+local/scripts/__pycache__/
+local/instruments/security_metadata.csv
+local/instruments/mainboard_etf.txt
+local/instruments/*.html
+local/instruments/*.json
+
+# exported archives
+tdx2qlib_*.tar
